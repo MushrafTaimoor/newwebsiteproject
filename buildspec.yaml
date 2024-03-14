@@ -6,4 +6,4 @@ phases:
       - npm install -g aws-cli
 
       # Copy files to S3 bucket
-      - aws s3 sync . s3://mystaticwebsiteforcicd --delete
+      - aws s3 sync . s3://mycicdbucketkashmir --delete
